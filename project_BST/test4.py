@@ -14,7 +14,7 @@ bst.NR_Insert(9)
 print(bst)
 
 print("\n------------\nDelete 5\n------------\n")
-bst.NR_BST_Delete(bst.root)
+bst.NR_Delete(bst.root)
 print(bst)
 
 print("\n")

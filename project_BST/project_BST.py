@@ -187,7 +187,9 @@ class BST():
                 r = r.right
                 if r != None:
                     r.parent = temp.parent
-                if temp == temp.parent.right:
+                if temp.parent == None: 
+                    self.root = r
+                elif temp == temp.parent.right:
                     temp.parent.right = r
                 else:
                     temp.parent.left = r

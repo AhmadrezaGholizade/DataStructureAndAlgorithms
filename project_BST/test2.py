@@ -22,11 +22,11 @@ print("\n------------\nPrinting Minimum(NR_Procedure)\n------------\n")
 print("Minimum Is:", bst.NR_Minimum())
 
 print("\n------------\nDelete Minimum for root\n------------\n")
-print("Delete Min has Done:", bst.BST_DeleteMin(bst.root))
+print("Delete Min has Done:", bst.R_DeleteMin(bst.root))
 print(bst)
 
 print("\n------------\nDelete Minimum for 3.00\n------------\n")
-print("Delete Min has Done:", bst.BST_DeleteMin(bst.root.right))
+print("Delete Min has Done:", bst.R_DeleteMin(bst.root.right))
 print(bst)
 
 

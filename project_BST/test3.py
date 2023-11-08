@@ -9,7 +9,7 @@ bst.NR_Insert(5)
 print(bst)
 
 print("\n------------\nDelete 5\n------------\n")
-bst.NR_BST_Delete(bst.root)
+bst.R_Delete(bst.root, 5)
 print(bst)
 
 print("\n------------\nPrinting After Inserting Items to the Tree\n------------\n")
@@ -27,6 +27,10 @@ print("Successor for Minimum of Tree:", bst.Successor(bst.NR_Minimum()))
 print("Successor for       4.00     :", bst.Successor(bst.root.left.right))
 print("Successor for       7.00     :", bst.Successor(bst.root))
 print("Successor for       9.00     :", bst.Successor(bst.root.right))
+
+print("\n------------\nDelete 7\n------------\n")
+bst.R_Delete(bst.root, 7)
+print(bst)
 
 
 print("\n")

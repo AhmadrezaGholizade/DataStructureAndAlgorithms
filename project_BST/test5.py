@@ -19,11 +19,20 @@ bst.NR_Insert(2.5)
 print(bst)
 
 print("\n------------\nDelete 2.00\n------------\n")
-bst.NR_BST_Delete(bst.root.left)
+bst.NR_Delete(bst.root.left)
 print(bst)
 
 print("\n------------\nDelete 5.00\n------------\n")
-bst.NR_BST_Delete(bst.root)
+bst.NR_Delete(bst.root)
+print(bst)
+
+print("\n------------\nPrinting After Inserting Item to the Tree\n------------\n")
+bst.NR_Insert(2.6)
+bst.NR_Insert(2.7)
+print(bst)
+
+print("\n------------\nDelete 5.00\n------------\n")
+bst.NR_Delete(bst.root.left)
 print(bst)
 
 print("\n")
