@@ -262,12 +262,5 @@ class BST():
         y.right = x
         x.parent = y
 
-            
-    # def Left_Rotate(self, x):
-    #     y = x.right
-    #     x.right 
-# bst = BST()
-# bst.NR_Insert(12)
-# bst.NR_Insert(11)
-# bst.NR_Insert(10)
-# print(bst)
+    # def AVL(self):
+    #     if self.root != None:
